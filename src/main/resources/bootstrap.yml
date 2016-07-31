@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mmb-config-client
+  cloud:
+    config:
+      uri:  http://localhost:8001
+  profiles:
+    active: hangzhou
+
+---
+server:
+  port: 8002
+
+
